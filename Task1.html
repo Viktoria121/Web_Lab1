@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <meta charset="UTF-8">
+    <title> Реєстраційна форма</title>
+</head>
+
+<body>
+
+    <h1>Реєстраційна форма</h1>
+
+    <form>
+
+      <label>Введіть повне ім'я викладача:
+        <input type="text" name="teachersname"><br>
+      </label><br>
+
+       <section>
+      <p>Оберіть вашу стать</p>
+      <input type="radio" id="gender" name="gender" value="female" required>
+      <label for="female">Жіноча</label>
+
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Чоловіча</label>
+
+      <input type="radio" id="other" name="gender" value="other">
+      <label for="other">Інше</label><br>
+      </section><br>
+
+      <label>Дата народження:
+         <input type="date" name="birthdate" id="do"><br>
+      </label><br>
+
+      <label>Емейл:
+        <input type="email" name="email"><br>
+      </label><br>
+
+      <label>Номер телефону:
+        <input type="tel" name="telephonsnumber"><br>
+      </label><br>
+
+      <label for="bgcolor">Оберіть бажаний колір тексту
+        <input type="color" id="bgcolor" name="backgraund color"><br>
+      </label><br>
+
+      <label for="state">Вкажіть вашу країну
+      <select id="state">
+        <option name="Ukrain">Україна</option>
+        <option name="Other cuntry">Інша країна</option>
+      </select><br>
+      </label><br>
+
+      <label for="state">Вкажіть ваше місто
+      <select id="citi">
+        <option name="Kyiv">Київ</option>
+        <option name="Other citi">Інше місто</option><br>
+      </select><br>
+      </label><br>
+
+      <label for="coment">Коментар:</label><br>
+      <textarea id="coment" name="coment"></textarea><br>
+
+      <button type="submit">Надіслати</button>
+
+    </form>
+      
+</body>
+
+</html>
